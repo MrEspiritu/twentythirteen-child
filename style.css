@@ -1,0 +1,45 @@
+/*
+Theme Name: Twenty Thirteen Child
+Theme URI: http://example.com/twenty-thirteen-child/
+Description: Twenty Fourteen Child Theme
+Author: Andreas Espiritu & Shallan Paul
+Author URI: 
+Template: twentythirteen
+Version: 1.0.0
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: twenty-fourteen-child
+*/
+
+@import url("../twentythirteen/style.css");
+
+/* Theme Customization start here braH! */
+
+.site-header .home-link {
+min-height: 0px;
+text-align:center;
+}
+
+.site-title {
+padding: 0px;
+}
+
+.entry-header, .entry-content, .entry-summary, .entry-meta {
+max-width: 1024px;
+
+}
+
+ul.nav-menu, div.nav-menu > ul {
+text-align: center;
+border-bottom: 1px solid #000;
+}
+
+.textwidget {
+width: 960px;
+}
+
+.navbar {
+background-color: #FFF;
+}
+
+
+
